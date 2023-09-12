@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO('yolov8n.pt')
-video_path = "monkey.mp4"
+model = YOLO('yolov8x.pt')
+video_path = "cat.mov"
 cap = cv2.VideoCapture(video_path)
 while cap.isOpened():
     success, frame = cap.read()
