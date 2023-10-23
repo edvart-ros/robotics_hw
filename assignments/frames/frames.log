@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  23 OCT 2023 15:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  23 OCT 2023 15:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -346,11 +346,7 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box57
-) (./frames.aux
-
-LaTeX Warning: Label `fig:frames2' multiply defined.
-
-)
+) (./frames.aux)
 \openout1 = `frames.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -479,23 +475,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-03>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `frames.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12950 strings out of 475188
- 188540 string characters out of 5767804
+ 12951 strings out of 475188
+ 188553 string characters out of 5767804
  1929248 words of memory out of 5000000
- 34021 multiletter control sequences out of 15000+600000
+ 34022 multiletter control sequences out of 15000+600000
  565909 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,3296b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on frames.pdf (3 pages, 246733 bytes).
+Output written on frames.pdf (3 pages, 246734 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

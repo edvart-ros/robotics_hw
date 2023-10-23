@@ -52,7 +52,7 @@ A final UWB device is connected to the laptop, serving as an interface for proce
 
 \subsubsection*{Software}
 The software is implemented in Python using the ROS framework, particularly leveraging the tf library. Pre-existing code is responsible for the publishing of the drone's inertial data and the UWB tag positional data.
-Since the beacons are assumed to be stationary, the \textit{static\_transform\_publisher} node of the tf library is used to establish the transforms from the fixed origin to the four stationar UWB beacons. 
+Since the beacons are assumed to be stationary, the \textit{static\_transform\_publisher} node of the tf library is used to establish the transforms from the fixed origin to the four stationary UWB beacons. 
 \\
 
 The origin was chosen to be below one of the beacons, at ground level.
@@ -69,24 +69,19 @@ The code can be found on the github repo: \url{https://github.com/Autonomi-USN/T
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{figures/image1.png}
-    \label{fig:frames2}
+    \label{fig:frames1}
 \end{figure}
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{figures/image.png}
     \caption{Visualization of the localization network in RViz. The network consists of the ground-level origin, four UWB beacons (corners) and two UWB tags.}
-    \label{fig:frames1}
+    \label{fig:frames2}
 \end{figure}
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{figures/image2.png}
     \caption{Position and orientation of a drone in RViz.}
-    \label{fig:frames2}
+    \label{fig:frames3}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%Continue with this pattern if there are more%%%%%%%
-%%%%%%%%%%%%%%%%%homework problems%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
 \end{document}
